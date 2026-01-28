@@ -19,9 +19,8 @@ namespace Microsoft.Templates.SharedResources
         public static string AppName => Resources.TemplateStudioForWinUI;
         public const string AssemblyName = "TemplateStudioForWinUICpp";
 #else
-#error Invalid configuration selected. You cannot use "Debug" or "Release", choose something else.
-        // If not using an appropriate build configuration,
-        // Building will fail because the above properties aren't defined.
+        public static string AppName => string.Empty;
+        public const string AssemblyName = "TemplateStudio";
 #endif
     }
 }

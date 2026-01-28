@@ -407,6 +407,8 @@
     <Content Include="Templates\Test\App.MSTest\.template.config\localize\templatestrings.zh-TW.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <None Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x64.pubxml" />
+    <None Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x86.pubxml" />
     <VSCTCompile Include="Commands\TemplateStudioForWinuiPackage.vsct">
       <Generator>VsctGenerator</Generator>
       <ResourceName>Menus.ctmenu</ResourceName>
@@ -1864,13 +1866,10 @@
     <Content Include="Templates\Proj\Default\Param_ProjectName\app.manifest">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win10-arm64.pubxml">
+    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x64.pubxml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win10-x64.pubxml">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win10-x86.pubxml">
+    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x86.pubxml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\Proj\Default\Param_ProjectName\README.md">
@@ -2438,8 +2437,8 @@
   <Import Project="..\SharedFunctionality.Core\SharedFunctionality.Core.projitems" Label="Shared" />
   <Import Project="..\SharedFunctionality.UI\SharedFunctionality.UI.projitems" Label="Shared" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="'$(VSToolsPath)' != ''" />
-  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+  <Import Project="$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets" Condition="Exists('$(VSToolsPath)\VSSDK\Microsoft.VsSDK.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
        Other similar extension points exist, see Microsoft.Common.targets.
   <Target Name="BeforeBuild">
   </Target>
