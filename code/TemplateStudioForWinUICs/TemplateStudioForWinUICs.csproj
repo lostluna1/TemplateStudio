@@ -407,8 +407,6 @@
     <Content Include="Templates\Test\App.MSTest\.template.config\localize\templatestrings.zh-TW.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <None Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x64.pubxml" />
-    <None Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x86.pubxml" />
     <VSCTCompile Include="Commands\TemplateStudioForWinuiPackage.vsct">
       <Generator>VsctGenerator</Generator>
       <ResourceName>Menus.ctmenu</ResourceName>
@@ -1866,12 +1864,6 @@
     <Content Include="Templates\Proj\Default\Param_ProjectName\app.manifest">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x64.pubxml">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
-    <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\win-x86.pubxml">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Templates\Proj\Default\Param_ProjectName\README.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -2433,6 +2425,9 @@
     <Content Include="Templates\Proj\Default\Param_ProjectName\Properties\launchsettings.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Templates\Proj\Default\Param_ProjectName\Properties\PublishProfiles\" />
   </ItemGroup>
   <Import Project="..\SharedFunctionality.Core\SharedFunctionality.Core.projitems" Label="Shared" />
   <Import Project="..\SharedFunctionality.UI\SharedFunctionality.UI.projitems" Label="Shared" />
