@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationConfig>
+	<NavigationItems>
+		<NavigationItem Id="Main" Title="Main" Icon="" NavigateTo="应用25.ViewModels.MainViewModel" Type="item">
+			<Children>
+				<NavigationItem Id="空白" Title="空白" Icon="" NavigateTo="应用25.ViewModels.空白ViewModel" Type="item">
+					<Children>
+						<NavigationItem Id="空白1" Title="空白1" Icon="" NavigateTo="应用25.ViewModels.空白1ViewModel" Type="item">
+							<Children>
+								<NavigationItem Id="空白2" Title="空白2" Icon="" NavigateTo="应用25.ViewModels.空白2ViewModel" Type="item" />
+							</Children>
+						</NavigationItem>
+					</Children>
+				</NavigationItem>
+			</Children>
+		</NavigationItem>
+	</NavigationItems>
+</NavigationConfig>

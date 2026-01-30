@@ -157,6 +157,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\AddSdkReferencesToContextPostAction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\ChangeSolutionConfigurationPostAction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\GenerateTestCertificatePostAction.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\MoveNavigationItemToParentPostAction.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\Merge\CodeStyleProviders\BaseCodeStyleProvider.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\Merge\CodeStyleProviders\CSharpStyleProvider.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PostActions\Catalog\Merge\CodeStyleProviders\VBStyleProvider.cs" />

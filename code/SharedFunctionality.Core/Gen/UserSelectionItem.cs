@@ -9,5 +9,11 @@ namespace Microsoft.Templates.Core.Gen
         public string Name { get; set; }
 
         public string TemplateId { get; set; }
+
+        /// <summary>
+        /// The ID of the parent navigation item for TabsNavView projects.
+        /// If null or empty, the item will be added as a root navigation item.
+        /// </summary>
+        public string ParentNavigationId { get; set; }
     }
 }

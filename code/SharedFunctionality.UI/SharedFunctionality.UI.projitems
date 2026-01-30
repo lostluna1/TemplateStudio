@@ -117,6 +117,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\BreakingChangeMessageViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\ChangesSummaryViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\ParentNavigationSelectionViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\ProjectConfigurationViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewItem\TemplateSelectionViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\NewProject\FrameworkViewModel.cs" />
@@ -205,6 +206,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\NewItem\ParentNavigationSelectionPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)Views\NewProject\FrameworkPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -261,6 +266,9 @@
       <DependentUpon>ProjectConfigurationDialog.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\NewItem\TemplateSelectionPage.xaml.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\NewItem\ParentNavigationSelectionPage.xaml.cs">
+      <DependentUpon>ParentNavigationSelectionPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Views\NewProject\FrameworkPage.xaml.cs">
       <DependentUpon>FrameworkPage.xaml</DependentUpon>
     </Compile>

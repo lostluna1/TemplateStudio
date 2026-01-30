@@ -1,4 +1,4 @@
-<Page
+﻿<Page
     x:Class="Param_RootNamespace.Views.ShellPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
@@ -8,24 +8,24 @@
 
     <Page.Resources>
         <MenuFlyout x:Key="TabContextMenu">
-            <MenuFlyoutItem x:Uid="ShellTabContextMenu_CloseTab" Click="CloseCurrentTab_Click">
+            <MenuFlyoutItem Text="关闭当前标签页" Click="CloseCurrentTab_Click">
                 <MenuFlyoutItem.Icon>
                     <FontIcon Glyph="&#xE711;"/>
                 </MenuFlyoutItem.Icon>
             </MenuFlyoutItem>
             <MenuFlyoutSeparator/>
-            <MenuFlyoutItem x:Uid="ShellTabContextMenu_CloseLeftTabs" Click="CloseLeftTabs_Click">
+            <MenuFlyoutItem Text="关闭左侧标签页" Click="CloseLeftTabs_Click">
                 <MenuFlyoutItem.Icon>
                     <FontIcon Glyph="&#xE760;"/>
                 </MenuFlyoutItem.Icon>
             </MenuFlyoutItem>
-            <MenuFlyoutItem x:Uid="ShellTabContextMenu_CloseRightTabs" Click="CloseRightTabs_Click">
+            <MenuFlyoutItem Text="关闭右侧标签页" Click="CloseRightTabs_Click">
                 <MenuFlyoutItem.Icon>
                     <FontIcon Glyph="&#xE761;"/>
                 </MenuFlyoutItem.Icon>
             </MenuFlyoutItem>
             <MenuFlyoutSeparator/>
-            <MenuFlyoutItem x:Uid="ShellTabContextMenu_CloseAllTabs" Click="CloseAllTabs_Click">
+            <MenuFlyoutItem Text="关闭所有标签页" Click="CloseAllTabs_Click">
                 <MenuFlyoutItem.Icon>
                     <FontIcon Glyph="&#xE73F;"/>
                 </MenuFlyoutItem.Icon>
@@ -34,15 +34,34 @@
     </Page.Resources>
 
     <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+        <NavigationView
+            x:Name="NavigationViewControl"
+            Canvas.ZIndex="0"
+            IsBackButtonVisible="Collapsed"
+            IsSettingsVisible="True"
+            DisplayModeChanged="NavigationViewControl_DisplayModeChanged"
+            PaneDisplayMode="Left"
+            IsTabStop="False"
+            IsPaneOpen="True"
+            OpenPaneLength="240"
+            CompactModeThresholdWidth="641">
+            <NavigationView.Content>
+                <TabView
+                    x:Name="TabViewControl"
+                    TabWidthMode="Equal"
+                    CanDragTabs="True"
+                    CanReorderTabs="True"
+                    IsAddTabButtonVisible="False"
+                    TabCloseRequested="TabView_TabCloseRequested"
+                    SelectionChanged="TabView_SelectionChanged"
+                    TabItemsChanged="TabView_TabItemsChanged"/>
+            </NavigationView.Content>
+        </NavigationView>
 
         <Grid
             x:Name="AppTitleBar"
-            Grid.Row="0"
             Height="48"
+            VerticalAlignment="Top"
             Canvas.ZIndex="1"
             IsHitTestVisible="True">
             <Grid.ColumnDefinitions>
@@ -63,41 +82,6 @@
                 TextWrapping="NoWrap"
                 Style="{StaticResource CaptionTextBlockStyle}"
                 Margin="28,0,0,0"/>
-        </Grid>
-
-        <Grid Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="Auto"/>
-                <ColumnDefinition Width="*"/>
-            </Grid.ColumnDefinitions>
-
-            <NavigationView
-                Grid.Column="0"
-                x:Name="NavigationViewControl"
-                Canvas.ZIndex="0"
-                IsBackButtonVisible="Collapsed"
-                IsSettingsVisible="True"
-                DisplayModeChanged="NavigationViewControl_DisplayModeChanged"
-                PaneDisplayMode="Left"
-                IsTabStop="False"
-                IsPaneOpen="True"
-                OpenPaneLength="240"
-                CompactModeThresholdWidth="641">
-                <NavigationView.Content>
-                    <Grid/>
-                </NavigationView.Content>
-            </NavigationView>
-
-            <TabView
-                Grid.Column="1"
-                x:Name="TabViewControl"
-                TabWidthMode="Equal"
-                CanDragTabs="True"
-                CanReorderTabs="True"
-                IsAddTabButtonVisible="False"
-                TabCloseRequested="TabView_TabCloseRequested"
-                SelectionChanged="TabView_SelectionChanged"
-                TabItemsChanged="TabView_TabItemsChanged"/>
         </Grid>
     </Grid>
 </Page>

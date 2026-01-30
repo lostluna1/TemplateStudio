@@ -25,6 +25,7 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
     public class MainViewModel : BaseMainViewModel
     {
         public const string NewItemStepTemplateSelection = "TemplateSelection";
+        public const string NewItemStepParentNavigation = "ParentNavigation";
         public const string NewItemStepChangesSummary = "ChangesSummary";
 
         private readonly GenerationService _generationService = GenerationService.Instance;
@@ -33,11 +34,15 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
 
         private static NewItemGenerationResult _output;
 
+        private bool _isTabsNavViewProject;
+
         public TemplateType TemplateType { get; set; }
 
         public static MainViewModel Instance { get; private set; }
 
         public TemplateSelectionViewModel TemplateSelection { get; } = new TemplateSelectionViewModel();
+
+        public ParentNavigationSelectionViewModel ParentNavigationSelection { get; } = new ParentNavigationSelectionViewModel();
 
         public ObservableCollection<BreakingChangeMessageViewModel> BreakingChangesErrors { get; set; } = new ObservableCollection<BreakingChangeMessageViewModel>();
 
@@ -88,7 +93,36 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
             TemplateType = templateType;
             WizardStatus.Title = GetNewItemTitle(templateType);
 
+            // Check if this is a TabsNavView project
+            _isTabsNavViewProject = context.ProjectType == "TabsNavView";
+
+            // Add parent navigation selection step for TabsNavView projects when adding pages
+            if (_isTabsNavViewProject && templateType == TemplateType.Page)
+            {
+                AddParentNavigationStep();
+            }
+
             Initialize(context);
+        }
+
+        private void AddParentNavigationStep()
+        {
+            // Insert the parent navigation step between template selection and changes summary
+            var parentNavStep = StepData.MainStep(NewItemStepParentNavigation, "2", Resources.NewItemStepParentNavigation, () => new ParentNavigationSelectionPage());
+
+            // Find the changes summary step and update its index
+            var changesSummaryStep = Navigation.Steps.FirstOrDefault(s => s.Id == NewItemStepChangesSummary);
+            if (changesSummaryStep != null)
+            {
+                var index = Navigation.Steps.IndexOf(changesSummaryStep);
+                Navigation.Steps.Insert(index, parentNavStep);
+
+                // Update step indices
+                for (int i = 0; i < Navigation.Steps.Count; i++)
+                {
+                    Navigation.Steps[i].Index = (i + 1).ToString();
+                }
+            }
         }
 
         private string GetNewItemTitle(TemplateType templateType)
@@ -113,6 +147,12 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
             if (e.StepData.Id == NewItemStepTemplateSelection)
             {
                 ChangesSummary.ClearSelected();
+                WizardNavigation.Current.SetCanFinish(false);
+            }
+            else if (e.StepData.Id == NewItemStepParentNavigation)
+            {
+                // Load navigation items when entering the parent navigation step
+                ParentNavigationSelection.LoadNavigationItems();
                 WizardNavigation.Current.SetCanFinish(false);
             }
             else if (e.StepData.Id == NewItemStepChangesSummary)
@@ -168,7 +208,12 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
         private UserSelection CreateUserSelection()
         {
             var userSelection = new UserSelection(Context) { HomeName = string.Empty };
-            var selectedTemplate = new UserSelectionItem { Name = TemplateSelection.Name, TemplateId = TemplateSelection.Template.TemplateId };
+            var selectedTemplate = new UserSelectionItem
+            {
+                Name = TemplateSelection.Name,
+                TemplateId = TemplateSelection.Template.TemplateId,
+                ParentNavigationId = _isTabsNavViewProject ? ParentNavigationSelection.GetSelectedParentId() : null
+            };
             userSelection.Add(selectedTemplate, TemplateSelection.Template.TemplateType);
 
             foreach (var dependencyTemplate in TemplateSelection.Template.Dependencies)
@@ -188,6 +233,7 @@ namespace Microsoft.Templates.UI.ViewModels.NewItem
                 {
                     Name = TemplateSelection.Name,
                     TemplateId = TemplateSelection.Template.TemplateId,
+                    ParentNavigationId = _isTabsNavViewProject ? ParentNavigationSelection.GetSelectedParentId() : null,
                 }, TemplateType);
             NewItemWizardShell.Current.Result = userSelection;
             NewItemWizardShell.Current.Result.ItemGenerationType = ChangesSummary.DoNotMerge ? ItemGenerationType.Generate : ItemGenerationType.GenerateAndMerge;

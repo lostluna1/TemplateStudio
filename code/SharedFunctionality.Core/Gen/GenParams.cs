@@ -16,5 +16,6 @@ namespace Microsoft.Templates.Core.Gen
         public const string Platform = "ts.generationPlatform";
         public const string GenerationPropertiesPrefix = "ts.generation";
         public const string ProjectName = "ts.projectName";
+        public const string ParentNavigationId = "ts.parentNavigationId";
     }
 }

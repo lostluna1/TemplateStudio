@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
+  <!--
+    Microsoft ResX Schema
+
     Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
+
+    The primary goals of this format is to allow a simple XML format
+    that is mostly human readable. The generation and parsing of the
+    various data types are done through the TypeConverter classes
     associated with the data types.
-    
+
     Example:
-    
+
     ... ado.net/XML headers & schema ...
     <resheader name="resmimetype">text/microsoft-resx</resheader>
     <resheader name="version">2.0</resheader>
@@ -26,36 +26,36 @@
         <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
         <comment>This is a comment</comment>
     </data>
-                
-    There are any number of "resheader" rows that contain simple 
+
+    There are any number of "resheader" rows that contain simple
     name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
+
+    Each data row contains a name, and value. The row also contains a
+    type or mimetype. Type corresponds to a .NET class that support
+    text/value conversion through the TypeConverter architecture.
+    Classes that don't support this are serialized and stored with the
     mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
+
+    The mimetype is used for serialized objects, and tells the
+    ResXResourceReader how to depersist the object. This is currently not
     extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
+
+    Note - application/x-microsoft.net.object.binary.base64 is the format
+    that the ResXResourceWriter will generate, however the reader can
     read any of the formats listed below.
-    
+
     mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
             : and then encoded with base64 encoding.
-    
+
     mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
+    value   : The object must be serialized with
             : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
             : and then encoded with base64 encoding.
 
     mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
+    value   : The object must be serialized into a byte array
             : using a System.ComponentModel.TypeConverter
             : and then encoded with base64 encoding.
     -->
@@ -713,8 +713,8 @@
     <comment>Has old MvvmLight Locator link documentation message</comment>
   </data>
   <data name="ErrorMissingNugetPackagesTemplate" xml:space="preserve">
-    <value>Some NuGet packages could not be added to your project {0}. This could have been caused if you were offline. 
-Please verify the following list of packages needed by your project's code and manually add the missing packages: 
+    <value>Some NuGet packages could not be added to your project {0}. This could have been caused if you were offline.
+Please verify the following list of packages needed by your project's code and manually add the missing packages:
 
 {1}</value>
     <comment>{0}: projectPath, {1}: package Info</comment>
@@ -1247,10 +1247,10 @@ You can find all referenced files in the temporary generation folder: {0}
 {2}
 {3}
 {4}</value>
-    <comment>{0}: Temp Generation Folder, 
-{1}: New Files (SyncInstructionsSectionNewFiles), 
-{2}: Modified Files (SyncInstructionsSectionModifiedFiles), 
-{3}: Conflicting Files (SyncInstructionsSectionConflictingFiles), 
+    <comment>{0}: Temp Generation Folder,
+{1}: New Files (SyncInstructionsSectionNewFiles),
+{2}: Modified Files (SyncInstructionsSectionModifiedFiles),
+{3}: Conflicting Files (SyncInstructionsSectionConflictingFiles),
 {4}: Unchanged files (SyncInstructionsSectionUnchangedFiles)</comment>
   </data>
   <data name="SyncInstructionsTemplateModifiedFile" xml:space="preserve">
@@ -1303,8 +1303,8 @@ You can find the files from the generation in the temporary generation folder: {
 
 {1}
 {2}</value>
-    <comment>{0}: Temp Generation Folder, 
-{1}: Failed Merge Files, 
+    <comment>{0}: Temp Generation Folder,
+{1}: Failed Merge Files,
 {2}: Conflicting Files</comment>
   </data>
   <data name="SyncSummaryTemplateFailedMerges" xml:space="preserve">
@@ -1312,7 +1312,7 @@ You can find the files from the generation in the temporary generation folder: {
 ### Changes in file '{0}':
 The following changes could not be integrated: {2}
 {1}</value>
-    <comment>{0}:FileName, 
+    <comment>{0}:FileName,
 {1}: Postaction Code,
 {2}:MergeResult,</comment>
   </data>
@@ -1322,7 +1322,7 @@ The following changes could not be integrated: {2}
 See the final result: {2}
 
 {1}</value>
-    <comment>{0}:FileName, 
+    <comment>{0}:FileName,
 {1}: Postaction Code,
 {2}:MergeResult,</comment>
   </data>
@@ -1422,5 +1422,33 @@ See the final result: {2}
   <data name="ValidatorUsesMvvmToolkitSevenMessage" xml:space="preserve">
     <value>Update to MVVM Toolkit version 8</value>
     <comment>Message when a breaking change is detected for MvvmToolkit version</comment>
+  </data>
+  <data name="NewItemStepParentNavigation" xml:space="preserve">
+    <value>Parent selection</value>
+    <comment>New Item: Navigation step for selecting parent navigation item</comment>
+  </data>
+  <data name="ParentNavigationSelectionTitle" xml:space="preserve">
+    <value>Select Parent Navigation Item</value>
+    <comment>Title for parent navigation selection page</comment>
+  </data>
+  <data name="ParentNavigationSelectionDescription" xml:space="preserve">
+    <value>Select which navigation item to add the new page under as a child, or add as a root navigation item. Supports up to 3 levels of nesting.</value>
+    <comment>Description for parent navigation selection</comment>
+  </data>
+  <data name="ParentNavigationAddAsRoot" xml:space="preserve">
+    <value>Add as root navigation item</value>
+    <comment>Radio button option to add as root item</comment>
+  </data>
+  <data name="ParentNavigationSelectParent" xml:space="preserve">
+    <value>Or select a parent navigation item:</value>
+    <comment>Label before parent item list</comment>
+  </data>
+  <data name="ParentNavigationMaxDepthReached" xml:space="preserve">
+    <value> (maximum nesting depth reached)</value>
+    <comment>Text shown when item is at max depth</comment>
+  </data>
+  <data name="ParentNavigationNoItems" xml:space="preserve">
+    <value>No available navigation items found. The new page will be added as a root navigation item.</value>
+    <comment>Message when no navigation items available</comment>
   </data>
 </root>

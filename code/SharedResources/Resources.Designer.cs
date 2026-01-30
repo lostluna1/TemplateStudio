@@ -10,8 +10,8 @@
 
 namespace Microsoft.Templates.SharedResources {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -23,15 +23,15 @@ namespace Microsoft.Templates.SharedResources {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     public class Resources {
-        
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal Resources() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -45,7 +45,7 @@ namespace Microsoft.Templates.SharedResources {
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,7 +59,7 @@ namespace Microsoft.Templates.SharedResources {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Code viewer.
         /// </summary>
@@ -68,7 +68,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityCodeViewerControl", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Design patterns.
         /// </summary>
@@ -77,7 +77,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityDesignPatternList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Page name.
         /// </summary>
@@ -86,7 +86,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityEditPageItem", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error text description.
         /// </summary>
@@ -95,7 +95,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityErrorDialogDescriptionTextboxName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Navigation menu.
         /// </summary>
@@ -104,7 +104,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityNavigationMenu", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New item file icon.
         /// </summary>
@@ -113,7 +113,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityNewItemFileIcon", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Notification panel.
         /// </summary>
@@ -122,7 +122,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityNotificationPanel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Project types.
         /// </summary>
@@ -131,7 +131,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityProjectTypesList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Sequential flow control.
         /// </summary>
@@ -140,7 +140,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilitySequentialFlowControl", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates list.
         /// </summary>
@@ -149,7 +149,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityTemplatesList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to User selection pages.
         /// </summary>
@@ -158,7 +158,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AccessibilityUserSelectionPageList", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add features.
         /// </summary>
@@ -167,7 +167,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AddFeaturesTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Additional Message.
         /// </summary>
@@ -176,7 +176,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AdditionalMessageString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add pages.
         /// </summary>
@@ -185,7 +185,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AddPagesTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add services.
         /// </summary>
@@ -194,7 +194,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AddServiceTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add testing.
         /// </summary>
@@ -203,7 +203,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AddTestingTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Addtional Exception Info.
         /// </summary>
@@ -212,7 +212,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AddtionalExceptionInfoString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Assembly File Version.
         /// </summary>
@@ -221,7 +221,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("AssemblyFileVersionString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Breaking changes.
         /// </summary>
@@ -230,7 +230,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("BreakingChanges", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to We have detected incompatibilities between your project and the last templates version. Please review the changes:.
         /// </summary>
@@ -239,7 +239,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("BreakingChangesDialogMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Back.
         /// </summary>
@@ -248,7 +248,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonBack", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cancel.
         /// </summary>
@@ -257,7 +257,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonCancel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Close.
         /// </summary>
@@ -266,7 +266,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonClose", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Composition tool.
         /// </summary>
@@ -275,7 +275,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonCompositionTool", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Create.
         /// </summary>
@@ -284,7 +284,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonCreate", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Details.
         /// </summary>
@@ -293,7 +293,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonDetails", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Details of {0}.
         /// </summary>
@@ -302,7 +302,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonDetailsHelpText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Maximize.
         /// </summary>
@@ -311,7 +311,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonMaximize", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Next.
         /// </summary>
@@ -320,7 +320,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonNext", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to No.
         /// </summary>
@@ -329,7 +329,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonNo", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Ok.
         /// </summary>
@@ -338,7 +338,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonOk", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Refresh templates cache.
         /// </summary>
@@ -347,7 +347,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonRefreshTemplatesCache", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Remove.
         /// </summary>
@@ -356,7 +356,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonRemove", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Restore.
         /// </summary>
@@ -365,7 +365,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonRestore", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Yes.
         /// </summary>
@@ -374,7 +374,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ButtonYes", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Do not merge changes (generate in a temp folder)..
         /// </summary>
@@ -383,7 +383,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryCheckBoxText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conflicting files.
         /// </summary>
@@ -392,7 +392,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupConflictingFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This file already exists in your project but was also generated as part of the new item. Your current file will not be modified or overwritten. Please compare and make sure everything is the right place. If needed, you can access to the generated file after finishing..
         /// </summary>
@@ -401,7 +401,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupConflictingFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Conflicting styles files.
         /// </summary>
@@ -410,7 +410,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupConflictingStylesFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to We are not able to introduce the styles in the resource dictionary..
         /// </summary>
@@ -419,7 +419,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupConflictingStylesFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Modified files.
         /// </summary>
@@ -428,7 +428,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupModifiedFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This file will be modified to include required content..
         /// </summary>
@@ -437,7 +437,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupModifiedFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New files.
         /// </summary>
@@ -446,7 +446,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupNewFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This file will be added as new file to your project..
         /// </summary>
@@ -455,7 +455,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupNewFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unchanged files.
         /// </summary>
@@ -464,7 +464,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupUnchangedFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This file already exists in your project and no further action is necessary. The file will remain unchanged..
         /// </summary>
@@ -473,7 +473,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupUnchangedFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Warning files.
         /// </summary>
@@ -482,7 +482,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupWarningFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to We are not able to introduce the modifications required. If needed, you can access the generated file after finishing..
         /// </summary>
@@ -491,7 +491,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryGroupWarningFilesDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to more info.
         /// </summary>
@@ -500,7 +500,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ChangesSummaryMoreInfoLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The query &quot;{0}&quot; is not valid. Allowed operators are &apos;==&apos; or &apos;!=&apos;. Multiple conditions are separated by &apos;&amp;&apos;..
         /// </summary>
@@ -509,7 +509,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("CompositionQueryParseMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Configuration file loaded.
         /// </summary>
@@ -518,7 +518,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ConfigurationFileLoadedString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Current content expiration.
         /// </summary>
@@ -527,7 +527,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("CurrentContentExpirationString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Deprecated.
         /// </summary>
@@ -536,7 +536,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("DeprecatedMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error adding items to project {0}.
         /// </summary>
@@ -545,7 +545,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorAddingItemsToProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error adding project {0}.
         /// </summary>
@@ -554,7 +554,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorAddingProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error adding references between projects.
         /// </summary>
@@ -563,7 +563,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorAddingReferencesBetweenProjects", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error adding sdks to project {0}..
         /// </summary>
@@ -572,7 +572,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorAddingSdksToProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error creating folder &apos;{0}&apos;: {1}.
         /// </summary>
@@ -581,7 +581,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorCreatingFolder", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Circular dependency detected on template {0} with {1}..
         /// </summary>
@@ -590,7 +590,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDependencyCircularReference", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Dependency template {0} not found on user selection..
         /// </summary>
@@ -599,7 +599,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDependencyMissing", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid dependency item {0}. Dependencies have to be configured as multipleInstance = false..
         /// </summary>
@@ -608,7 +608,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDependencyMultipleInstance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Dependency template {0} not found for framework {1} and platform {2}..
         /// </summary>
@@ -617,7 +617,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDependencyNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid dependency item {0}. Dependency items must be of type Page or Feature..
         /// </summary>
@@ -626,7 +626,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDependencyType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Show details.
         /// </summary>
@@ -635,7 +635,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDialogShowDetails", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Something went wrong :-(.
         /// </summary>
@@ -644,7 +644,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorDialogTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Excluded template {0} found on user selection..
         /// </summary>
@@ -653,7 +653,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExcludedTemplatesFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exclusion template {0} is defined as exclusion and dependency for template {1}..
         /// </summary>
@@ -662,7 +662,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExclusionAndDependency", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exclusion template {0} is defined as exclusion and requirement for template {1}..
         /// </summary>
@@ -671,7 +671,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExclusionAndRequirement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exclusion template {0} not found for framework {1} and platform {2}..
         /// </summary>
@@ -680,7 +680,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExclusionNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates with exclusions cannot be awailable on right click..
         /// </summary>
@@ -689,7 +689,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExclusionRightClick", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid exclusion item {0}. Exclusion items must be of type Page, Feature, Service or Testing..
         /// </summary>
@@ -698,7 +698,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExclusionType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Multivalue field: &apos;{0}&apos; contains trailing or leading whitespaces..
         /// </summary>
@@ -707,7 +707,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorExtraWhitespacesInMultiValues", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exception when generating the project.
         /// </summary>
@@ -716,7 +716,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorFailedToGenerateProjectFromTemplates", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template &apos;{0}&apos;, name: &apos;{1}&apos;, reason: &apos;{2}&apos;.
         /// </summary>
@@ -725,7 +725,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorGenerating", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid Requirement Type {0}.
         /// </summary>
@@ -734,7 +734,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorInvalidRequirementType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Layout template {0} not found for framework {1} and platform {2}..
         /// </summary>
@@ -743,7 +743,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorLayoutNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid layout item {0}. Layout items must be of type Page or Feature..
         /// </summary>
@@ -752,7 +752,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorLayoutType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Install-Package -Id {0} -Version {1}.
         /// </summary>
@@ -761,10 +761,10 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorMissingNugetPackagesInstallTemplate", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Some NuGet packages could not be added to your project {0}. This could have been caused if you were offline. 
-        ///Please verify the following list of packages needed by your project&apos;s code and manually add the missing packages: 
+        ///   Looks up a localized string similar to Some NuGet packages could not be added to your project {0}. This could have been caused if you were offline.
+        ///Please verify the following list of packages needed by your project&apos;s code and manually add the missing packages:
         ///
         ///{1}.
         /// </summary>
@@ -773,7 +773,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorMissingNugetPackagesTemplate", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template name {0} is not valid. Errors: {1}.
         /// </summary>
@@ -782,7 +782,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorNamingValidationFailed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to &quot;{0}&quot; already exists in folder {1}, please choose a different project name..
         /// </summary>
@@ -791,7 +791,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorProjectAlreadyExists", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Project name {0} is not valid. Errors: {1}.
         /// </summary>
@@ -800,7 +800,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorProjectNameValidationFailed", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to &quot;{0}&quot; is a reserved name. Please choose a different name and try again..
         /// </summary>
@@ -809,7 +809,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorProjectReservedName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to &quot;{0}&quot; is not a valid name. Project name can&apos;t start with &quot;{1}&quot;..
         /// </summary>
@@ -818,7 +818,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorProjectStartsWith", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Recursive requirement detected on template {0} with {1}..
         /// </summary>
@@ -827,7 +827,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRecursiveRequirement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Required template {0} not found on user selection..
         /// </summary>
@@ -836,7 +836,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRequirementMissing", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid requirement item {0}. Requirements have to be configured as multipleInstance = false..
         /// </summary>
@@ -845,7 +845,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRequirementMultipleInstance", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Required template {0} not found for framework {1} and platform {2}..
         /// </summary>
@@ -854,7 +854,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRequirementNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid requirement item on template {0}. Right click enabled items cannot have requirements..
         /// </summary>
@@ -863,7 +863,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRequirementRightClick", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid requirement item {0}. Dependency items must be of type Page, Feature, Service or Testing..
         /// </summary>
@@ -872,7 +872,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorRequirementType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid project name.
         /// </summary>
@@ -881,7 +881,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorTitleInvalidProjectName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exception tracking telemetry during generation..
         /// </summary>
@@ -890,7 +890,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorTrackTelemetryException", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to find project {0}.
         /// </summary>
@@ -899,7 +899,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorUnableGetProjectByPath", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to resolve platform..
         /// </summary>
@@ -908,7 +908,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorUnableResolvePlatform", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Could not open project overview..
         /// </summary>
@@ -917,7 +917,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorUnableToOpenProjectOverview", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to remove temporary placeholder project during generation..
         /// </summary>
@@ -926,7 +926,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorUnableToReplaceTempProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to set default solution configuration.
         /// </summary>
@@ -935,7 +935,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorUnableToSetDefaultConfiguration", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to There was an error collapsing the solution tree. Ex:.
         /// </summary>
@@ -944,7 +944,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorVsGenShellCollapseSolutionItemsMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to There was an error showing status message. Ex:.
         /// </summary>
@@ -953,7 +953,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ErrorVsGenShellShowStatusBarMessageMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exception Info.
         /// </summary>
@@ -962,7 +962,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ExceptionInfoString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Could not find project file for item {0}.
         /// </summary>
@@ -971,7 +971,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ExceptionProjectNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exception.
         /// </summary>
@@ -980,7 +980,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ExceptionString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exception Tracked.
         /// </summary>
@@ -989,7 +989,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ExceptionTrackedString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Open in a new browser tab.
         /// </summary>
@@ -998,7 +998,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ExternalHyperlinkTooltipMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Could not find file &apos;{0}&apos; to include the following changes. Please review the code blocks to include the changes manually where required in your project. Related Template: &apos;{1}&apos;..
         /// </summary>
@@ -1007,7 +1007,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FailedMergePostActionFileNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The style with key &apos;{0}&apos; is already defined with different value or elements in this file. Please review the styles to include the changes manually where required in your project. Related Template: &apos;{1}&apos;..
         /// </summary>
@@ -1016,7 +1016,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FailedMergePostActionKeyAlreadyDefined", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Could not find the expected line `{0}` in file &apos;{1}&apos;. Please merge the content from the postaction file manually. Related Template: &apos;{2}&apos;..
         /// </summary>
@@ -1025,7 +1025,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FailedMergePostActionLineNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to File `{0}` has encoding &amp;apos;{1}&amp;apos; while file `{2}` has encoding &amp;apos;{3}&amp;apos; please ensure both encodings are the same..
         /// </summary>
@@ -1034,7 +1034,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FailedMergePostActionMismatchedEncoding", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select a design pattern.
         /// </summary>
@@ -1043,7 +1043,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FrameworkTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Cannot remove readonly protection from file {0}.
         /// </summary>
@@ -1052,7 +1052,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsEnsureFileEditableException", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The file {0} can&apos;t be copied to {1}. Error: {2}.
         /// </summary>
@@ -1061,7 +1061,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeCopyFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The folder {0} can&apos;t be deleted. Error: {1}.
         /// </summary>
@@ -1070,7 +1070,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeDeleteDirectoryMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The file {0} can&apos;t be deleted. Error: {1}.
         /// </summary>
@@ -1079,7 +1079,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeDeleteFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The folder {0} can&apos;t be moved to {1}. Error: {2}.
         /// </summary>
@@ -1088,7 +1088,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeMoveDirectoryMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The file {0} can&apos;t be moved to {1}. Error: {2}.
         /// </summary>
@@ -1097,7 +1097,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeMoveFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The folder {0} can&apos;t be renamed. Error: {1}.
         /// </summary>
@@ -1106,7 +1106,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("FsSafeRenameDirectoryMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Critical error initializating GenContext..
         /// </summary>
@@ -1115,7 +1115,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("GenContextBootstrapError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to There is no context for the current gen execution, call Current_set first.
         /// </summary>
@@ -1124,7 +1124,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("GenContextCurrentInvalidOperationMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error generating certificate..
         /// </summary>
@@ -1133,7 +1133,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("GenerateTestCertificatePostActionExecute", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Press enter to add {0}.
         /// </summary>
@@ -1142,7 +1142,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("HelpTextPressEnterToAddItem", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Higher version required.
         /// </summary>
@@ -1151,7 +1151,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("InfoDialogInvalidVersionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} project creation requires Visual Studio 2019 Version {1} or higher..
         /// </summary>
@@ -1160,7 +1160,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("InfoDialogInvalidVSVersion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Missing workload.
         /// </summary>
@@ -1169,7 +1169,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("InfoDialogMissingWorkloadTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to More info.
         /// </summary>
@@ -1178,7 +1178,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("InfoDialogMoreInfoLinkText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You need to install the following workloads to create a {0} project: {1} .
         /// </summary>
@@ -1187,7 +1187,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("InfoDialogRequiredWorkloadNotFoundMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Log started.
         /// </summary>
@@ -1196,7 +1196,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("LogStartedString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to *Recommended Markdown viewer: [Markdown Editor VS Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*.
         /// </summary>
@@ -1205,7 +1205,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("MarkdownHeader", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to There is no merge target for file &apos;{0}&apos;. Related Template: &apos;{1}&apos;..
         /// </summary>
@@ -1214,7 +1214,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("MergeFileNotFoundExceptionMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Line {0} not found in file &apos;{1}&apos;. Related Template: &apos;{2}&apos;..
         /// </summary>
@@ -1223,7 +1223,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("MergeLineNotFoundExceptionMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Could not find naming configuration file {0}..
         /// </summary>
@@ -1232,7 +1232,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NamingErrorConfigFileNotFound", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to infer a name. Too many iterations.
         /// </summary>
@@ -1241,7 +1241,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NamingInferMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} is already part of your project..
         /// </summary>
@@ -1250,7 +1250,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemHasNoChangesFeature", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to A page named {0} is already part of your project. Enter a new name or choose another page..
         /// </summary>
@@ -1259,7 +1259,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemHasNoChangesPage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} is already part of your project..
         /// </summary>
@@ -1268,7 +1268,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemHasNoChangesService", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} is already part of your project..
         /// </summary>
@@ -1277,7 +1277,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemHasNoChangesTesting", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template selection.
         /// </summary>
@@ -1286,7 +1286,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemStepOne", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Changes summary.
         /// </summary>
@@ -1295,7 +1295,16 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemStepTwo", resourceCulture);
             }
         }
-        
+
+        /// <summary>
+        ///   Looks up a localized string similar to Parent selection.
+        /// </summary>
+        public static string NewItemStepParentNavigation {
+            get {
+                return ResourceManager.GetString("NewItemStepParentNavigation", resourceCulture);
+            }
+        }
+
         /// <summary>
         ///   Looks up a localized string similar to Dependencies.
         /// </summary>
@@ -1304,7 +1313,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTemplateDetailsDependenciesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Licenses.
         /// </summary>
@@ -1313,7 +1322,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTemplateDetailsLicensesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Name.
         /// </summary>
@@ -1322,7 +1331,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTemplateDetailsNameSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Details.
         /// </summary>
@@ -1331,7 +1340,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTemplateDetailsTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New feature.
         /// </summary>
@@ -1340,7 +1349,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTitleFeature", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New page.
         /// </summary>
@@ -1349,7 +1358,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTitlePage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New service.
         /// </summary>
@@ -1358,7 +1367,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTitleService", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New testing project.
         /// </summary>
@@ -1367,7 +1376,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewItemTitleTesting", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Design pattern.
         /// </summary>
@@ -1376,7 +1385,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepDesignPattern", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Features.
         /// </summary>
@@ -1385,7 +1394,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepFeatures", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pages.
         /// </summary>
@@ -1394,7 +1403,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepPages", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Project type.
         /// </summary>
@@ -1403,7 +1412,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepProjectType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Services.
         /// </summary>
@@ -1412,7 +1421,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepServices", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Testing.
         /// </summary>
@@ -1421,7 +1430,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectStepTesting", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New Universal Windows Platform app.
         /// </summary>
@@ -1430,7 +1439,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectTitleUWP", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New WinUI 3 Desktop app.
         /// </summary>
@@ -1439,7 +1448,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectTitleWinUIDesktop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New WinUI 3 UWP app.
         /// </summary>
@@ -1448,7 +1457,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectTitleWinUIUWP", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to New WPF app.
         /// </summary>
@@ -1457,7 +1466,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NewProjectTitleWPF", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to no content available..
         /// </summary>
@@ -1466,7 +1475,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NoContentPanelMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can not add **{0}** because the following templates are not compatible: {1}..
         /// </summary>
@@ -1475,7 +1484,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationAdditionError_Exclusion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can not add **{0}** because it is requires one of the following templates to be added first: {1}.
         /// </summary>
@@ -1484,7 +1493,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationAdditionError_Requirement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The following versions are missing, please install them and restart Visual Studio: {0}.
         /// </summary>
@@ -1493,7 +1502,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationMissingVersions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can not remove **{0}** because these templates depend on it: {1}.
         /// </summary>
@@ -1502,7 +1511,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationRemoveError_Dependency", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can not remove **{0}** because it is required for the selected project type..
         /// </summary>
@@ -1511,7 +1520,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationRemoveError_ReadOnly", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You can not remove **{0}** because it is required for: {1}.
         /// </summary>
@@ -1520,7 +1529,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationRemoveError_Requirement", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error refreshing templates. See output window for more details..
         /// </summary>
@@ -1529,7 +1538,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncError_Refresh", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to There are new templates available (v{0}). Downloading… {1}%.
         /// </summary>
@@ -1538,7 +1547,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_Acquiring", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Checking for updates....
         /// </summary>
@@ -1547,7 +1556,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_CheckingForUpdates", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error downloading templates (v{0}). We&apos;ll try later again..
         /// </summary>
@@ -1556,7 +1565,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_ErrorAcquiring", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio Version {0} is available. Update the extension to enjoy the latest features..
         /// </summary>
@@ -1565,7 +1574,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_NewWizardVersionAvailable", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Preparing templates (v{0})... {1}%.
         /// </summary>
@@ -1574,7 +1583,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_Preparing", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates updated..
         /// </summary>
@@ -1583,7 +1592,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_Updated", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Refreshing templates cache….
         /// </summary>
@@ -1592,7 +1601,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationSyncStatus_Updating", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Name already exists.
         /// </summary>
@@ -1601,7 +1610,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_AlreadyExists", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Only alphanumeric and &apos;_&apos; characters are allowed.
         /// </summary>
@@ -1610,7 +1619,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_BadFormat", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Name cannot be empty.
         /// </summary>
@@ -1619,7 +1628,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_Empty", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The name cannot end with &apos;Page&apos; as this will be automatically added. [More info about naming.]({0}naming.md).
         /// </summary>
@@ -1628,7 +1637,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_PageSuffix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The project name does not match the project folder name. Please adjust to ensure a correct generation..
         /// </summary>
@@ -1637,7 +1646,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_ProjectNameAndPathDoNotMatch", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to RegEx validation {0} failed..
         /// </summary>
@@ -1646,7 +1655,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_Regex", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Name is reserved.
         /// </summary>
@@ -1655,7 +1664,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationError_ReservedName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Note that &apos;Page&apos; will be added to the end of the specified name. [More info about naming.]({0}naming.md).
         /// </summary>
@@ -1664,7 +1673,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("NotificationValidationWarning_ViewSuffix", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Package certificate.
         /// </summary>
@@ -1673,7 +1682,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("PackageCertificateString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error executing &apos;{0}&apos;. Ignoring the error as Continue on Error is enabled. Related template: {1}..
         /// </summary>
@@ -1682,7 +1691,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("PostActionContinuerOnErrorWarning", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error executing &apos;{0}&apos;. Related template: {1}..
         /// </summary>
@@ -1691,7 +1700,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("PostActionException", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The PostAction.ActionId &apos;{0}&apos; defined in the template does not match with the expected class ActionId &apos;{1}&apos;. Can&apos;t continue. Related template: {2}..
         /// </summary>
@@ -1700,7 +1709,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("PostActionIdsNotMatchError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to None.
         /// </summary>
@@ -1709,7 +1718,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("PostActionRelatedNone", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to We are unable to find the project configuration metadata in the Package.appxmanifest file. Can you please provide the project configuration you selected when the project was created?.
         /// </summary>
@@ -1718,7 +1727,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationDescriptionText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select AppModel.
         /// </summary>
@@ -1727,7 +1736,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationSelectAppModel", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select design pattern:.
         /// </summary>
@@ -1736,7 +1745,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationSelectFramework", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select platform.
         /// </summary>
@@ -1745,7 +1754,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationSelectPlatform", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select project type:.
         /// </summary>
@@ -1754,7 +1763,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationSelectProjectType", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Choose project configuration.
         /// </summary>
@@ -1763,7 +1772,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectConfigurationTitleText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Report issue.
         /// </summary>
@@ -1772,7 +1781,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsAboutSectionIssuesLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to About Template Studio.
         /// </summary>
@@ -1781,7 +1790,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsAboutSectionLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates version:.
         /// </summary>
@@ -1790,7 +1799,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsAboutSectionTemplatesVersion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to About.
         /// </summary>
@@ -1799,7 +1808,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsAboutSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Wizard version:.
         /// </summary>
@@ -1808,7 +1817,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsAboutSectionWizardVersion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Features.
         /// </summary>
@@ -1817,7 +1826,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsFeaturesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You have changed your design pattern selection. The pages and features you have selected will be lost. Do you want to continue?.
         /// </summary>
@@ -1826,7 +1835,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsFrameworkResetDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Design pattern changed.
         /// </summary>
@@ -1835,7 +1844,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsFrameworkResetTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Design pattern.
         /// </summary>
@@ -1844,7 +1853,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsFrameworkSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Licenses.
         /// </summary>
@@ -1853,7 +1862,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsLicensesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Pages.
         /// </summary>
@@ -1862,7 +1871,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsPagesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to You have changed your project type selection. The templates you have selected will be lost. Do you want to continue?.
         /// </summary>
@@ -1871,7 +1880,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsProjectTypeResetDescription", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Project type changed.
         /// </summary>
@@ -1880,7 +1889,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsProjectTypeResetTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Project type.
         /// </summary>
@@ -1889,7 +1898,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsProjectTypeSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Services.
         /// </summary>
@@ -1898,7 +1907,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsServicesSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Testing.
         /// </summary>
@@ -1907,7 +1916,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsTestingSectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Your project details.
         /// </summary>
@@ -1916,7 +1925,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectDetailsTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select a project type.
         /// </summary>
@@ -1925,7 +1934,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ProjectTypeTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error downloading from {0}. Internet connection is required to download template updates..
         /// </summary>
@@ -1934,7 +1943,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("RemoteTemplatesSourceDownloadContentKoErrorMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates content can&apos;t be downloaded right now, we will try it later..
         /// </summary>
@@ -1943,7 +1952,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("RemoteTemplatesSourceDownloadContentKoInfoMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates content downloaded to {0} from {1}..
         /// </summary>
@@ -1952,7 +1961,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("RemoteTemplatesSourceDownloadContentOkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Use ctrl+up arrow or ctrl+down arrow to change page order.
         /// </summary>
@@ -1961,7 +1970,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ReorderPageHelpText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error syncing templates. Status:.
         /// </summary>
@@ -1970,7 +1979,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("RepositorySynchronizationExceptionMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to or.
         /// </summary>
@@ -1979,7 +1988,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SeparatorOr", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adding {0} to project ....
         /// </summary>
@@ -1988,7 +1997,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusAddingItem", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adding NuGet package {0} to project ....
         /// </summary>
@@ -1997,7 +2006,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusAddingNuget", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adding project {0} to solution....
         /// </summary>
@@ -2006,7 +2015,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusAddingProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adding references between projects....
         /// </summary>
@@ -2015,7 +2024,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusAddingProjectReferences", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating &apos;{0}&apos; project....
         /// </summary>
@@ -2024,7 +2033,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarCreatingProject", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating &apos;{0}&apos; feature ....
         /// </summary>
@@ -2033,7 +2042,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGeneratingFeatureMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating &apos;{0}&apos; page ....
         /// </summary>
@@ -2042,7 +2051,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGeneratingPageMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating project &apos;{0}&apos;....
         /// </summary>
@@ -2051,7 +2060,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGeneratingProjectMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating &apos;{0}&apos; service ....
         /// </summary>
@@ -2060,7 +2069,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGeneratingServiceMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Creating &apos;{0}&apos; testing ....
         /// </summary>
@@ -2069,7 +2078,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGeneratingTestingMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Generation finished.
         /// </summary>
@@ -2078,7 +2087,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarGenerationFinished", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add new feature cancelled.
         /// </summary>
@@ -2087,7 +2096,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddFeatureCancelled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Feature {0} successfully added.
         /// </summary>
@@ -2096,7 +2105,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddFeatureSuccess", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add new page cancelled.
         /// </summary>
@@ -2105,7 +2114,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddPageCancelled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Page {0} successfully added.
         /// </summary>
@@ -2114,7 +2123,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddPageSuccess", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add new service cancelled.
         /// </summary>
@@ -2123,7 +2132,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddServiceCancelled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Service {0} successfully added.
         /// </summary>
@@ -2132,7 +2141,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddServiceSuccess", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Add new testing project cancelled.
         /// </summary>
@@ -2141,7 +2150,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddTestingCancelled", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Testing project {0} successfully added.
         /// </summary>
@@ -2150,7 +2159,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusBarNewItemAddTestingSuccess", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Opening generated files ....
         /// </summary>
@@ -2159,7 +2168,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("StatusOpeningItems", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Steps to include new item generation.md.
         /// </summary>
@@ -2168,7 +2177,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsFileName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Conflicting files:
         ///These files already exist in your project and were also generated as part of the new item.
@@ -2180,7 +2189,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsSectionConflictingFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Modified files:
         ///To integrate your new item with the existing project apply the following changes:
@@ -2191,7 +2200,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsSectionModifiedFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## New files:
         ///Copy and add the following files to your project:
@@ -2202,7 +2211,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsSectionNewFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Unchanged files:
         ///These files already exist in your project, no action is necessary:
@@ -2213,7 +2222,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsSectionUnchangedFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to *Recommended Markdown viewer: [Markdown Editor VS Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
         ///
@@ -2232,9 +2241,9 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsTemplate", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///### Changes required in file &apos;{0}&apos;:
         ///{1}
         ///Preview the changes in: {2}.
@@ -2244,7 +2253,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncInstructionsTemplateModifiedFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to GenerationSummary.md.
         /// </summary>
@@ -2253,7 +2262,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryFileName", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ProjectFile.
         /// </summary>
@@ -2262,7 +2271,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryProjectFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Conflicting files:
         ///These files already exist in your project and were also generated as part of the new item.
@@ -2274,7 +2283,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummarySectionConflictingFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Failed changes in files:
         ///Merges in the following files failed:
@@ -2285,7 +2294,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummarySectionFailedMergeFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## Modified files:
         ///The following changes have been applied:
@@ -2296,7 +2305,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummarySectionModifiedFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ## New files:
         ///These files have been added to your project.
@@ -2307,7 +2316,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummarySectionNewFiles", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Temp.
         /// </summary>
@@ -2316,7 +2325,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryTempGenerationFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to *Recommended Markdown viewer: [Markdown Editor VS Extension](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.MarkdownEditor2)*
         ///
@@ -2333,9 +2342,9 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryTemplate", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///### Changes in file &apos;{0}&apos;:
         ///The following changes could not be integrated: {2}
         ///{1}.
@@ -2345,9 +2354,9 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryTemplateFailedMerges", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to 
+        ///   Looks up a localized string similar to
         ///### Changes in file &apos;{0}&apos;:
         ///See the final result: {2}
         ///
@@ -2358,7 +2367,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("SyncSummaryTemplateModifiedFile", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Added.
         /// </summary>
@@ -2367,7 +2376,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateAdded", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Author:.
         /// </summary>
@@ -2376,7 +2385,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsAuthor", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Dependencies:.
         /// </summary>
@@ -2385,7 +2394,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsDependencies", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Exclusions:.
         /// </summary>
@@ -2394,7 +2403,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsExclusions", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Frameworks:.
         /// </summary>
@@ -2403,7 +2412,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsFrameworks", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to This item is currently not available due to missing Visual Studio Workloads / Components..
         /// </summary>
@@ -2412,7 +2421,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsInfoUnavailableDueToMissingVSWorkload", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Includes:.
         /// </summary>
@@ -2421,7 +2430,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsLayout", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0} (optional).
         /// </summary>
@@ -2430,7 +2439,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsLayoutOptional", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Licenses:.
         /// </summary>
@@ -2439,7 +2448,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsLicenses", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Minimum .NET Core Version:.
         /// </summary>
@@ -2448,7 +2457,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsRequiredDotNetVersion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Required Windows Sdks:.
         /// </summary>
@@ -2457,7 +2466,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsRequiredSdks", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Required Visual Studio Workloads / Components:.
         /// </summary>
@@ -2466,7 +2475,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsRequiredVSWorkloads", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Requirements:.
         /// </summary>
@@ -2475,7 +2484,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsRequirements", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Version:.
         /// </summary>
@@ -2484,7 +2493,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateDetailsVersion", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Analytics.
         /// </summary>
@@ -2493,7 +2502,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Analytics", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Application Launching.
         /// </summary>
@@ -2502,7 +2511,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_ApplicationLaunching", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Application Lifecycle.
         /// </summary>
@@ -2511,7 +2520,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_ApplicationLifecycle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Background Work.
         /// </summary>
@@ -2520,7 +2529,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_BackgroundWork", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Connected Experiences.
         /// </summary>
@@ -2529,7 +2538,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_ConnectedExperiences", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Data.
         /// </summary>
@@ -2538,7 +2547,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Data", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Deployment.
         /// </summary>
@@ -2547,7 +2556,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Deployment", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Identity (choose one).
         /// </summary>
@@ -2556,7 +2565,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Identity", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Packaging.
         /// </summary>
@@ -2565,7 +2574,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Packaging", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Tools.
         /// </summary>
@@ -2574,7 +2583,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_Tools", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to User Interaction.
         /// </summary>
@@ -2583,7 +2592,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateGroup_UserInteraction", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Invalid digital signatures in &apos;{0}&apos;. The content has been tampered or the certificate is not present, not valid or not allowed.  Unable to continue..
         /// </summary>
@@ -2592,7 +2601,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageExtractMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Found {0} certificates matching the thumbprint {1} in the store {2}.
         /// </summary>
@@ -2601,7 +2610,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageFindCertificateFoundMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The certificate found does not have private key..
         /// </summary>
@@ -2610,7 +2619,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageFindCertificateNoPkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to More than one certificate found matching the thumbrint. Returning the first one..
         /// </summary>
@@ -2619,7 +2628,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageFindCertificateNotOneMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The specified source &apos;{0}&apos; is invalid, the file does not exist, or the folder is empty..
         /// </summary>
@@ -2628,7 +2637,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageGetSourceFilesMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to No certificate found matching the thumbrint {0}. Searched on CurrentUser/My and LocalMachine/My stores..
         /// </summary>
@@ -2637,7 +2646,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageLoadCertMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The certificate with thumbprint {0} can&apos;t be found in CurrentUser/My or LocalMachine/My..
         /// </summary>
@@ -2646,7 +2655,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackagePackAndSignMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error signing package..
         /// </summary>
@@ -2655,7 +2664,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageSignAllPartsMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Package signature certificate validation not passed..
         /// </summary>
@@ -2664,7 +2673,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageValidatePackageCertificatesMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Certificate &apos;{0}&apos; verification finished with status &apos;{1}&apos;.
         /// </summary>
@@ -2673,7 +2682,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatePackageVerifyCertificateMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates extracted to.
         /// </summary>
@@ -2682,7 +2691,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesContentExtractedToString", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Select the template you want to add.
         /// </summary>
@@ -2691,7 +2700,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateSelectionTitle", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error reading source config file..
         /// </summary>
@@ -2700,7 +2709,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSourceErrorLoadingConfigFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to The templates can&apos;t be extracted..
         /// </summary>
@@ -2709,7 +2718,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSourceExtractContentMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Templates local path is empty..
         /// </summary>
@@ -2718,7 +2727,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSourceLocalPathEmptyMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error synchronizing templates..
         /// </summary>
@@ -2727,7 +2736,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationError", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error acquiring content..
         /// </summary>
@@ -2736,7 +2745,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationErrorAcquiring", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error downloading source config file..
         /// </summary>
@@ -2745,7 +2754,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationErrorDownloadingConfig", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error extracting installed templates content...
         /// </summary>
@@ -2754,7 +2763,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationErrorExtracting", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error updating templates content..
         /// </summary>
@@ -2763,7 +2772,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationErrorUpdating", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Unable to purge old content..
         /// </summary>
@@ -2772,7 +2781,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationPurgeContentAsyncMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Other instance is syncing templates... Waiting 5 seconds..
         /// </summary>
@@ -2781,7 +2790,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationWaitingOtherInstanceMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error creating the instance locking file..
         /// </summary>
@@ -2790,7 +2799,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationWarnCreatingLockFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error deleting the instance locking file..
         /// </summary>
@@ -2799,7 +2808,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationWarnDeletingLockFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Error reading the instance locking file..
         /// </summary>
@@ -2808,7 +2817,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplatesSynchronizationWarnReadingLockFileMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio for UWP.
         /// </summary>
@@ -2817,7 +2826,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateStudioForUwp", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio for WinUI.
         /// </summary>
@@ -2826,7 +2835,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateStudioForWinUI", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio for WPF.
         /// </summary>
@@ -2835,7 +2844,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TemplateStudioForWpf", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to By continuing, you agree to the terms of the above licenses..
         /// </summary>
@@ -2844,7 +2853,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("TermsAndConditionsText", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to UWP.
         /// </summary>
@@ -2853,7 +2862,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("UWP", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}update-activationservice-for-identity.md.
         /// </summary>
@@ -2862,7 +2871,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasActivationServiceBeforeIdentityLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -2871,7 +2880,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasActivationServiceBeforeIdentityLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio has changed the ActivationService to be able to include Identity features..
         /// </summary>
@@ -2880,7 +2889,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasActivationServiceBeforeIdentityMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}UWP/projectTypes/updatetonavigationview.md.
         /// </summary>
@@ -2889,7 +2898,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasHamburgerMenuLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -2898,7 +2907,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasHamburgerMenuLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to HamburgerMenu control is obsolete and Template Studio now supports NavigationView. .
         /// </summary>
@@ -2907,7 +2916,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasHamburgerMenuMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}updatetomultiproject.md.
         /// </summary>
@@ -2916,7 +2925,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasNoCoreProjectLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -2925,7 +2934,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasNoCoreProjectLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Adding core project. .
         /// </summary>
@@ -2934,7 +2943,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasNoCoreProjectMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}UWP/frameworks/updatemvvmlightlocator.md.
         /// </summary>
@@ -2943,7 +2952,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldMvvmLightLocatorLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -2952,7 +2961,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldMvvmLightLocatorLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to We&apos;ve changed our MVVMLight ViewModelLocator implementation to support MultiView in MVVMLight. .
         /// </summary>
@@ -2961,7 +2970,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldMvvmLightLocatorMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}UWP/projectTypes/updatetowinuinavigationview.md.
         /// </summary>
@@ -2970,7 +2979,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldNavigationViewLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -2979,7 +2988,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldNavigationViewLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio is now using the NavigationView from Windows UI Library..
         /// </summary>
@@ -2988,7 +2997,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasOldNavigationViewMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}UWP/projectTypes/updatetohorizontalnavview.md.
         /// </summary>
@@ -2997,7 +3006,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasPivotLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -3006,7 +3015,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasPivotLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio is now using horizontal NavigationView in Pivot projects. .
         /// </summary>
@@ -3015,7 +3024,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorHasPivotMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to {0}WinUI/frameworks/mvvmtoolkit-upgrate-to-version8.md.
         /// </summary>
@@ -3024,7 +3033,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorUsesMvvmToolkitSevenLink", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to See documentation to update..
         /// </summary>
@@ -3033,7 +3042,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorUsesMvvmToolkitSevenLinkMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Update to MVVM Toolkit version 8.
         /// </summary>
@@ -3042,7 +3051,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("ValidatorUsesMvvmToolkitSevenMessage", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Template Studio.
         /// </summary>
@@ -3051,7 +3060,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WindowsTemplateStudio", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Windows UI.
         /// </summary>
@@ -3060,7 +3069,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WinUI", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to .NET desktop development.
         /// </summary>
@@ -3069,7 +3078,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WorkloadDisplayNameManagedDesktop", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to MSIX Packaging Tools.
         /// </summary>
@@ -3078,7 +3087,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WorkloadDisplayNameMsixPackaging", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to ASP.NET and web development.
         /// </summary>
@@ -3087,7 +3096,7 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WorkloadDisplayNameNetWeb", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to Universal Windows Platform development.
         /// </summary>
@@ -3096,13 +3105,67 @@ namespace Microsoft.Templates.SharedResources {
                 return ResourceManager.GetString("WorkloadDisplayNameUniversal", resourceCulture);
             }
         }
-        
+
         /// <summary>
         ///   Looks up a localized string similar to WPF (.NET Core).
         /// </summary>
         public static string WPF {
             get {
                 return ResourceManager.GetString("WPF", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Select Parent Navigation Item.
+        /// </summary>
+        public static string ParentNavigationSelectionTitle {
+            get {
+                return ResourceManager.GetString("ParentNavigationSelectionTitle", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Select which navigation item to add the new page under as a child, or add as a root navigation item. Supports up to 3 levels of nesting..
+        /// </summary>
+        public static string ParentNavigationSelectionDescription {
+            get {
+                return ResourceManager.GetString("ParentNavigationSelectionDescription", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Add as root navigation item.
+        /// </summary>
+        public static string ParentNavigationAddAsRoot {
+            get {
+                return ResourceManager.GetString("ParentNavigationAddAsRoot", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to Or select a parent navigation item:.
+        /// </summary>
+        public static string ParentNavigationSelectParent {
+            get {
+                return ResourceManager.GetString("ParentNavigationSelectParent", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to  (maximum nesting depth reached).
+        /// </summary>
+        public static string ParentNavigationMaxDepthReached {
+            get {
+                return ResourceManager.GetString("ParentNavigationMaxDepthReached", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to No available navigation items found. The new page will be added as a root navigation item..
+        /// </summary>
+        public static string ParentNavigationNoItems {
+            get {
+                return ResourceManager.GetString("ParentNavigationNoItems", resourceCulture);
             }
         }
     }

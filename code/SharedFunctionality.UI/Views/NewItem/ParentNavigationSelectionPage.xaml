@@ -1,0 +1,110 @@
+<Page
+    x:Class="Microsoft.Templates.UI.Views.NewItem.ParentNavigationSelectionPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:res="clr-namespace:Microsoft.Templates.SharedResources;assembly=SharedResources"
+    mc:Ignorable="d"
+    d:DesignHeight="400" d:DesignWidth="600">
+
+    <Grid Style="{StaticResource TSGridMainPage}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBlock
+            Grid.Row="0"
+            Text="{x:Static res:Resources.ParentNavigationSelectionTitle}"
+            Margin="24,16,24,8"
+            Style="{StaticResource TSTextBlockSectionTitle}" />
+
+        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" Margin="24,8,24,16">
+            <StackPanel>
+                <TextBlock
+                    Text="{x:Static res:Resources.ParentNavigationSelectionDescription}"
+                    TextWrapping="Wrap"
+                    Margin="0,0,0,16"
+                    Style="{StaticResource TSTextBlockSubSectionTitle}" />
+
+                <RadioButton
+                    x:Name="AddAsRootRadio"
+                    Content="{x:Static res:Resources.ParentNavigationAddAsRoot}"
+                    IsChecked="{Binding ParentNavigationSelection.AddAsRootItem, Mode=TwoWay}"
+                    Margin="0,8,0,16"
+                    FontSize="14"
+                    Foreground="{DynamicResource TSForeground}" />
+
+                <TextBlock
+                    Text="{x:Static res:Resources.ParentNavigationSelectParent}"
+                    Margin="0,0,0,8"
+                    Visibility="{Binding ParentNavigationSelection.AllNavigationItems, Converter={StaticResource HasItemsVisibilityConverter}}"
+                    Style="{StaticResource TSTextBlockSubSectionTitle}" />
+
+                <ListBox
+                    x:Name="ParentItemsListBox"
+                    ItemsSource="{Binding ParentNavigationSelection.AllNavigationItems}"
+                    SelectedItem="{Binding ParentNavigationSelection.SelectedParent, Mode=TwoWay}"
+                    Visibility="{Binding ParentNavigationSelection.AllNavigationItems, Converter={StaticResource HasItemsVisibilityConverter}}"
+                    Background="Transparent"
+                    BorderThickness="0"
+                    Margin="20,0,0,0">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal" Margin="{Binding ItemMargin}">
+                                <TextBlock
+                                    Text="{Binding Icon}"
+                                    FontFamily="Segoe Fluent Icons"
+                                    FontSize="16"
+                                    VerticalAlignment="Center"
+                                    Margin="0,0,12,0"
+                                    Foreground="{DynamicResource TSForeground}" />
+                                <TextBlock
+                                    Text="{Binding DisplayName}"
+                                    FontSize="14"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TSForeground}" />
+                                <TextBlock
+                                    Text="{x:Static res:Resources.ParentNavigationMaxDepthReached}"
+                                    FontSize="12"
+                                    VerticalAlignment="Center"
+                                    Foreground="{DynamicResource TSSecondaryText}"
+                                    Visibility="{Binding CanBeParent, Converter={StaticResource BoolToVisibilityConverter}, ConverterParameter=True}" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                    <ListBox.ItemContainerStyle>
+                        <Style TargetType="ListBoxItem">
+                            <Setter Property="Padding" Value="8,4"/>
+                            <Setter Property="Margin" Value="0,2"/>
+                            <Setter Property="Background" Value="Transparent"/>
+                            <Setter Property="Foreground" Value="{DynamicResource TSForeground}"/>
+                            <Setter Property="IsEnabled" Value="{Binding CanBeParent}"/>
+                            <Style.Triggers>
+                                <Trigger Property="IsSelected" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource TSSecondaryAccent}"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter Property="Background" Value="{DynamicResource TSSecondaryDark}"/>
+                                </Trigger>
+                                <Trigger Property="IsEnabled" Value="False">
+                                    <Setter Property="Opacity" Value="0.5"/>
+                                </Trigger>
+                            </Style.Triggers>
+                        </Style>
+                    </ListBox.ItemContainerStyle>
+                </ListBox>
+
+                <TextBlock
+                    x:Name="NoItemsText"
+                    Text="{x:Static res:Resources.ParentNavigationNoItems}"
+                    TextWrapping="Wrap"
+                    Margin="0,8,0,0"
+                    FontStyle="Italic"
+                    Visibility="{Binding ParentNavigationSelection.NoItemsMessageVisibility}"
+                    Foreground="{DynamicResource TSSecondaryText}" />
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

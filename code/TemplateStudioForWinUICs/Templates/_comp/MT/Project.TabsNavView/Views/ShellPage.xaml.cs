@@ -1,4 +1,4 @@
-using Microsoft.UI.Xaml;
+﻿using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using Param_RootNamespace.Contracts.Services;
 using Param_RootNamespace.Helpers;
@@ -158,7 +158,6 @@ public sealed partial class ShellPage : Page
 
         tab.RightTapped -= OnTabRightTapped;
         tab.Content = null;
-        tab.ContextFlyout = null;
 
         TabViewControl.TabItems.Remove(tab);
         ViewModel.NavigationService.CloseTab(tab);

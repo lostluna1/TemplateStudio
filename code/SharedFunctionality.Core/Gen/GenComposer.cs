@@ -139,6 +139,12 @@ namespace Microsoft.Templates.Core.Gen
                         }
                     }
 
+                    // Add ParentNavigationId parameter for TabsNavView projects
+                    if (!string.IsNullOrEmpty(selectedTemplate.ParentNavigationId))
+                    {
+                        genInfo.Parameters.Add(GenParams.ParentNavigationId, selectedTemplate.ParentNavigationId);
+                    }
+
                     AddCasingParams(selectedTemplate.Name, template, genInfo);
                 }
             }
