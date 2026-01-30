@@ -23,7 +23,7 @@ public sealed partial class ShellPage : Page
         InitializeComponent();
 
         ViewModel.NavigationService.Navigated += OnNavigated;
-        _ = InitializeNavigationAsync();
+        Loaded += ShellPage_Loaded;
 
         App.MainWindow.ExtendsContentIntoTitleBar = true;
         App.MainWindow.SetTitleBar(AppTitleBar);
@@ -31,7 +31,7 @@ public sealed partial class ShellPage : Page
         AppTitleBarText.Text = "AppDisplayName".GetLocalized();
     }
 
-    private async System.Threading.Tasks.Task InitializeNavigationAsync()
+    private async void ShellPage_Loaded(object sender, RoutedEventArgs e)
     {
         await ViewModel.NavigationViewService.InitializeAsync(NavigationViewControl);
     }

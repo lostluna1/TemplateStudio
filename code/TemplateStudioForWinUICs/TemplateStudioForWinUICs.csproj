@@ -2392,7 +2392,7 @@
     <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationViewService.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfig.json">
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfig.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationService.cs">
@@ -2437,13 +2437,10 @@
     <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\PageService_postaction.cs">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfig_postaction.json">
-      <IncludeInVSIX>true</IncludeInVSIX>
-    </Content>
     <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Blank\.template.config\template.json">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
-    <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Blank\Services\NavigationConfig_postaction.json">
+    <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Blank\Services\NavigationConfig_postaction.xml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Settings\.template.config\template.json">

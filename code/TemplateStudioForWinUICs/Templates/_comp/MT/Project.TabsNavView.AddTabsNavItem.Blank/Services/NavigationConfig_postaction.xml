@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationConfig>
+  <NavigationItems>
+<!--^^-->
+<!--{[{-->
+    <NavigationItem Id="Param_ItemName" Title="Param_ItemName" Icon="&#xE7C3;" NavigateTo="Param_RootNamespace.ViewModels.Param_ItemNameViewModel" Type="item" />
+<!--}]}-->
+  </NavigationItems>
+</NavigationConfig>

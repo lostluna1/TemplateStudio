@@ -1,8 +1,0 @@
-{
-  "items": [
-//^^
-//{[{
-    { "id": "Param_ItemName", "title": "Param_ItemName", "icon": "\uE7C3", "navigateTo": "Param_RootNamespace.ViewModels.Param_ItemNameViewModel", "type": "item" },
-//}]}
-  ]
-}

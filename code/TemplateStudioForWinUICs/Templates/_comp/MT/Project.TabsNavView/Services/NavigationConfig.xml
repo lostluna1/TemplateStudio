@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NavigationConfig>
+  <NavigationItems>
+    <NavigationItem Id="Main" Title="Main" Icon="&#xE80F;" NavigateTo="Param_RootNamespace.ViewModels.MainViewModel" Type="item" />
+  </NavigationItems>
+</NavigationConfig>

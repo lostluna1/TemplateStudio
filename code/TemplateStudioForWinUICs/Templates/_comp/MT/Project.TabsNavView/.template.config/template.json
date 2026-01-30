@@ -62,7 +62,7 @@
             "path": "Views/MainPage.xaml.cs"
         },
         {
-            "path": "Services/NavigationConfig.json"
+            "path": "Services/NavigationConfig.xml"
         },
         {
             "path": "Directory.Build.props"

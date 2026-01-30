@@ -1,4 +1,4 @@
-using System.Text.Json;
+using System.Xml.Linq;
 using Param_RootNamespace.Contracts.Services;
 using Param_RootNamespace.Models;
 
@@ -6,35 +6,69 @@ namespace Param_RootNamespace.Services;
 
 public class NavigationConfigService : INavigationConfigService
 {
-    private const string ConfigFileName = "NavigationConfig.json";
-
     public async Task<List<NavigationItem>> LoadNavigationItemsAsync()
     {
+        string xml;
         try
         {
-            var uri = new Uri("ms-appx:///Services/NavigationConfig.json");
+            // Try packaged app path first
+            var uri = new Uri("ms-appx:///Services/NavigationConfig.xml");
             var file = await Windows.Storage.StorageFile.GetFileFromApplicationUriAsync(uri);
-            var json = await Windows.Storage.FileIO.ReadTextAsync(file);
-
-            // Remove merge markers that template engine leaves
-            json = System.Text.RegularExpressions.Regex.Replace(json, @"//\^\^.*?$", "", System.Text.RegularExpressions.RegexOptions.Multiline);
-            json = System.Text.RegularExpressions.Regex.Replace(json, @"//\{\[\{.*?$", "", System.Text.RegularExpressions.RegexOptions.Multiline);
-            json = System.Text.RegularExpressions.Regex.Replace(json, @"//\}\]\}.*?$", "", System.Text.RegularExpressions.RegexOptions.Multiline);
-            json = System.Text.RegularExpressions.Regex.Replace(json, @",\s*\]", "]");
-            json = System.Text.RegularExpressions.Regex.Replace(json, @",\s*\}", "}");
-
-            var config = JsonSerializer.Deserialize<NavigationConfig>(json);
-            return config?.Items ?? new List<NavigationItem>();
+            xml = await Windows.Storage.FileIO.ReadTextAsync(file);
         }
         catch
         {
-            return new List<NavigationItem>();
+            // Fall back to unpackaged app path
+            var filePath = Path.Combine(AppContext.BaseDirectory, "Services", "NavigationConfig.xml");
+            xml = await File.ReadAllTextAsync(filePath);
         }
-    }
-}
 
-internal class NavigationConfig
-{
-    [System.Text.Json.Serialization.JsonPropertyName("items")]
-    public List<NavigationItem> Items { get; set; } = new();
+        // Remove merge markers that template engine leaves
+        xml = System.Text.RegularExpressions.Regex.Replace(xml, @"<!--\s*\^\^\s*-->\s*[\r\n]*", "", System.Text.RegularExpressions.RegexOptions.Multiline);
+        xml = System.Text.RegularExpressions.Regex.Replace(xml, @"<!--\s*\{\[\{\s*-->\s*[\r\n]*", "", System.Text.RegularExpressions.RegexOptions.Multiline);
+        xml = System.Text.RegularExpressions.Regex.Replace(xml, @"<!--\s*\}\]\}\s*-->\s*[\r\n]*", "", System.Text.RegularExpressions.RegexOptions.Multiline);
+
+        var doc = XDocument.Parse(xml);
+        var items = new List<NavigationItem>();
+
+        foreach (var element in doc.Root?.Element("NavigationItems")?.Elements("NavigationItem") ?? Enumerable.Empty<XElement>())
+        {
+            var item = ParseNavigationItem(element);
+            if (item != null)
+            {
+                items.Add(item);
+            }
+        }
+
+        return items;
+    }
+
+    private NavigationItem? ParseNavigationItem(XElement element)
+    {
+        var item = new NavigationItem
+        {
+            Id = element.Attribute("Id")?.Value ?? string.Empty,
+            Title = element.Attribute("Title")?.Value ?? string.Empty,
+            Icon = element.Attribute("Icon")?.Value ?? string.Empty,
+            NavigateTo = element.Attribute("NavigateTo")?.Value ?? string.Empty,
+            Type = element.Attribute("Type")?.Value ?? "item"
+        };
+
+        // Parse children if any
+        var childrenElement = element.Element("Children");
+        if (childrenElement != null)
+        {
+            item.Children = new List<NavigationItem>();
+            foreach (var childElement in childrenElement.Elements("NavigationItem"))
+            {
+                var child = ParseNavigationItem(childElement);
+                if (child != null)
+                {
+                    item.Children.Add(child);
+                }
+            }
+        }
+
+        return item;
+    }
 }

@@ -1,8 +1,7 @@
 <Project>
   <ItemGroup>
-    <Content Include="Services\NavigationConfig.json">
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <Visible>true</Visible>
+    <Content Include="Services\NavigationConfig.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>

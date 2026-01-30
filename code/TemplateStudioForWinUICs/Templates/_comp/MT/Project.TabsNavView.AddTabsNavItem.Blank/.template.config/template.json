@@ -19,7 +19,7 @@
     "preferNameDirectory": true,
     "PrimaryOutputs": [
         {
-            "path": "Services\\NavigationConfig_postaction.json"
+            "path": "Services\\NavigationConfig_postaction.xml"
         }
     ],
     "symbols": {
