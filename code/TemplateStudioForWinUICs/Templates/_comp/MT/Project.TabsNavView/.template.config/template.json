@@ -1,0 +1,77 @@
+﻿{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Microsoft",
+    "classifications": [
+        "Universal"
+    ],
+    "name": "ts.WinUI.Project.TabsNavView",
+    "shortName": "ts.WinUI.Project.TabsNavView",
+    "identity": "ts.WinUI.Project.TabsNavView",
+    "tags": {
+        "language": "C#",
+        "type": "item",
+        "ts.type": "composition",
+        "ts.platform": "WinUI",
+        "ts.version": "1.0.0",
+        "ts.compositionOrder": "1",
+        "ts.compositionFilter": "$frontendframework == MVVMToolkit & $projectType == TabsNavView & ts.type == project"
+    },
+    "sourceName": "Param_ProjectName",
+    "preferNameDirectory": true,
+    "PrimaryOutputs": [
+        {
+            "path": "Behaviors/NavigationViewHeaderBehavior.cs"
+        },
+        {
+            "path": "Behaviors/NavigationViewHeaderMode.cs"
+        },
+        {
+            "path": "Contracts/Services/INavigationViewService.cs"
+        },
+        {
+            "path": "Contracts/Services/INavigationConfigService.cs"
+        },
+        {
+            "path": "Helpers/NavigationHelper.cs"
+        },
+        {
+            "path": "Services/NavigationViewService.cs"
+        },
+        {
+            "path": "Services/NavigationConfigService.cs"
+        },
+        {
+            "path": "Models/NavigationItem.cs"
+        },
+        {
+            "path": "ViewModels/ShellViewModel.cs"
+        },
+        {
+            "path": "ViewModels/MainViewModel.cs"
+        },
+        {
+            "path": "Views/ShellPage.xaml"
+        },
+        {
+            "path": "Views/ShellPage.xaml.cs"
+        },
+        {
+            "path": "Views/MainPage.xaml"
+        },
+        {
+            "path": "Views/MainPage.xaml.cs"
+        },
+        {
+            "path": "Services/NavigationConfig.json"
+        },
+        {
+            "path": "Directory.Build.props"
+        }
+    ],
+    "symbols": {
+        "ts.rootNamespace": {
+            "type": "parameter",
+            "replaces": "Param_RootNamespace"
+        }
+    }
+}

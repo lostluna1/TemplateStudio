@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+<!--^^-->
+<!--{[{-->
+  <data name="ShellTabContextMenu_CloseTab.Text" xml:space="preserve">
+    <value>Close Tab</value>
+    <comment>Menu item text for close current tab</comment>
+  </data>
+  <data name="ShellTabContextMenu_CloseLeftTabs.Text" xml:space="preserve">
+    <value>Close Tabs to the Left</value>
+    <comment>Menu item text for close left tabs</comment>
+  </data>
+  <data name="ShellTabContextMenu_CloseRightTabs.Text" xml:space="preserve">
+    <value>Close Tabs to the Right</value>
+    <comment>Menu item text for close right tabs</comment>
+  </data>
+  <data name="ShellTabContextMenu_CloseAllTabs.Text" xml:space="preserve">
+    <value>Close All Tabs</value>
+    <comment>Menu item text for close all tabs</comment>
+  </data>
+<!--}]}-->
+</root>

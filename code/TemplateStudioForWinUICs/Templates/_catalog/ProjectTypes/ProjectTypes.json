@@ -50,4 +50,22 @@
         "_platform.comment": "{Locked}",
         "_languages.comment": "{Locked}"
     }
+    ,
+    {
+        "name": "TabsNavView",
+        "displayName": "Tabs Navigation",
+        "summary": "A navigation pane whose pages open inside tabs (TabView), closing a tab cleans up the page.",
+        "author": "Microsoft",
+        "order": "4",
+        "platform": "WinUI",
+        "languages": [ "C#" ],
+
+        "_name.comment": "{Locked}",
+        "_displayName.comment": "Label for an application with tabs navigation.",
+        "_summary.comment": "Label description for Tabs Navigation.",
+        "_author.comment": "{Locked}",
+        "_order.comment": "{Locked}",
+        "_platform.comment": "{Locked}",
+        "_languages.comment": "{Locked}"
+    }
 ]

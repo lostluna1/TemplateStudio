@@ -143,24 +143,24 @@ namespace Microsoft.Templates.Core.Helpers
 
         public static string FindFileAtOrAbove(string path, string extension)
         {
-            var file = Directory.EnumerateFiles(path, extension, SearchOption.TopDirectoryOnly).FirstOrDefault();
+            // If the provided path doesn't exist, walk up until an existing directory is found
+            var current = path;
+            while (current != null)
+            {
+                if (Directory.Exists(current))
+                {
+                    var file = Directory.EnumerateFiles(current, extension, SearchOption.TopDirectoryOnly).FirstOrDefault();
+                    if (file != null)
+                    {
+                        return file;
+                    }
+                }
 
-            if (file != null)
-            {
-                return file;
+                var parent = Directory.GetParent(current);
+                current = parent?.FullName;
             }
-            else
-            {
-                var parent = Directory.GetParent(path);
-                if (parent != null)
-                {
-                    return FindFileAtOrAbove(Directory.GetParent(path).FullName, extension);
-                }
-                else
-                {
-                    return string.Empty;
-                }
-            }
+
+            return string.Empty;
         }
 
         public static void SafeRenameDirectory(string dir, string dirNewName, bool warnOnFailure = true)

@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <!--{--{-->
+  <ItemGroup>
+    <Content Include="Services\NavigationConfig.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <!--}--}-->
+</Project>

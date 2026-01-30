@@ -12,6 +12,9 @@ public class PageService : IPageService
 
     public PageService()
     {
+//^^
+//{[{
+//}]}
     }
 
     public Type GetPageType(string key)

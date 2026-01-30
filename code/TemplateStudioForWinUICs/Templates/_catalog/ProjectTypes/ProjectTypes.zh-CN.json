@@ -32,4 +32,16 @@
       "C#"
     ]
   }
+  ,
+  {
+    "name": "TabsNavView",
+    "displayName": "选项卡导航",
+    "summary": "包含一个导航窗格，所导航的页面会在选项卡 (TabView) 内打开，关闭选项卡时会清理对应页面。",
+    "author": "Microsoft",
+    "order": "4",
+    "platform": "WinUI",
+    "languages": [
+      "C#"
+    ]
+  }
 ]

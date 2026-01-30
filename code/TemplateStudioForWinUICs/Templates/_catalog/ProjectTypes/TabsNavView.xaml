@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Viewbox xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" Stretch="Uniform">
+  <Canvas Name="svg_tabs" Width="48" Height="48">
+    <Path Fill="#000000">
+      <Path.Data>
+        <PathGeometry Figures="M2 6H46V10H2z M2 12H46V44H2z M6 16v8h8v-8z M16 16v8h8v-8z" FillRule="NonZero"/>
+      </Path.Data>
+    </Path>
+  </Canvas>
+</Viewbox>

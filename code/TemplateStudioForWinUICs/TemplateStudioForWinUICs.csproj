@@ -2115,6 +2115,9 @@
     <Content Include="Templates\_catalog\ProjectTypes\NavView.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Templates\_catalog\ProjectTypes\TabsNavView.md">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Templates\_catalog\ProjectTypes\Blank.tr-TR.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
@@ -2127,10 +2130,16 @@
     <Content Include="Templates\_catalog\ProjectTypes\NavView.zh-CN.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Templates\_catalog\ProjectTypes\TabsNavView.zh-CN.md">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
     <Content Include="Templates\_catalog\ProjectTypes\Blank.zh-TW.md">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_catalog\ProjectTypes\NavView.zh-TW.md">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_catalog\ProjectTypes\TabsNavView.xaml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
     <Content Include="Templates\_catalog\FrontendFrameworks\FrontendFrameworks.pt-BR.json">
@@ -2364,6 +2373,91 @@
     <Content Include="Templates\_comp\MT\Project.NavView\Views\ShellPage.xaml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\.template.config\template.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Views\ShellPage.xaml">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Views\ShellPage.xaml.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Behaviors\NavigationViewHeaderBehavior.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Behaviors\NavigationViewHeaderMode.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Contracts\Services\INavigationViewService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Helpers\NavigationHelper.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\ViewModels\ShellViewModel.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationViewService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfig.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfigService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Contracts\Services\INavigationService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Contracts\Services\INavigationConfigService.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Models\NavigationItem.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Activation\DefaultActivationHandler.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Strings\en-us\Resources_postaction.resw">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Directory.Build.props">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\ActivationService_postaction.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\App_postaction.xaml.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Views\MainPage.xaml">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Views\MainPage.xaml.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\ViewModels\MainViewModel.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\PageService_postaction.cs">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView\Services\NavigationConfig_postaction.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Blank\.template.config\template.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Blank\Services\NavigationConfig_postaction.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+    <Content Include="Templates\_comp\MT\Project.TabsNavView.AddTabsNavItem.Settings\.template.config\template.json">
+      <IncludeInVSIX>true</IncludeInVSIX>
+    </Content>
+
     <Content Include="Templates\_comp\_shared\Page.AddTitle.Blank\Views\Param_ItemNamePage_postaction.xaml">
       <IncludeInVSIX>true</IncludeInVSIX>
     </Content>

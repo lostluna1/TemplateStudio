@@ -1,0 +1,31 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Microsoft",
+    "classifications": [
+        "Universal"
+    ],
+    "name": "ts.WinUI.Project.TabsNavView.AddNavigationViewItem.Blank",
+    "identity": "ts.WinUI.Project.TabsNavView.AddNavigationViewItem.Blank",
+    "shortName": "ts.WinUI.Project.TabsNavView.AddNavigationViewItem.Blank",
+    "tags": {
+        "language": "C#",
+        "type": "item",
+        "ts.type": "composition",
+        "ts.platform": "WinUI",
+        "ts.version": "1.0.0",
+        "ts.compositionFilter": "$frontendframework == MVVMToolkit & $projectType == TabsNavView & ts.type == page & identity == ts.WinUI.Page.Blank"
+    },
+    "sourceName": "Param_ItemName",
+    "preferNameDirectory": true,
+    "PrimaryOutputs": [
+        {
+            "path": "Services\\NavigationConfig_postaction.json"
+        }
+    ],
+    "symbols": {
+        "ts.rootNamespace": {
+            "type": "parameter",
+            "replaces": "Param_RootNamespace"
+        }
+    }
+}

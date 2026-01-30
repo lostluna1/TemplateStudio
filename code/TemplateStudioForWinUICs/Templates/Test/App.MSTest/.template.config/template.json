@@ -11,7 +11,7 @@
         "language": "C#",
         "type": "project",
         "ts.type": "testing",
-        "ts.projecttype": "Blank|NavView|MenuBar",
+        "ts.projecttype": "Blank|NavView|MenuBar|TabsNavView",
         "ts.outputToParent": "true",
         "ts.frontendframework": "all",
         "ts.platform": "WinUI",

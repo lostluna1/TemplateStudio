@@ -1,0 +1,14 @@
+{
+  "items": [
+    //^^
+    //{[{
+    {
+      "id": "Main",
+      "title": "Main",
+      "icon": "\uE80F",
+      "navigateTo": "Param_RootNamespace.ViewModels.MainViewModel",
+      "type": "item"
+    },
+    //}]}
+  ]
+}
